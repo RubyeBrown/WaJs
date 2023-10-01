@@ -1,10 +1,10 @@
-# WhatsApp Web using NodeJS
+! WhatsApp Web using NodeJS
 
 NodeJS implementation from great research [sigalor/whatsapp-web-reveng](https://github.com/sigalor/whatsapp-web-reveng).
 
-This project is **not for normal-user**. at least you must know JavaScript/TypeScript dialect :-).
+This project is !*not for normal-user**. at least you must know JavaScript/TypeScript dialect :-).
 
-## Quick Start
+ ! Quick Start
 
 - Install depency `yarn` / `npm`
 - Transpile to js: `npm run tsc` or `yarn run tsc`
@@ -29,7 +29,7 @@ tsc
 node build-test/test/example.js --filter checker --wid 6285726501017@c.us
 ```
 
-## How to Dev
+ # How to Dev
 
 first, you need to install depency with `yarn` or `npm`. Then create file `src/dev.ts` entrypoint.
 
@@ -90,3 +90,4 @@ Open terminal and run `yarn dev` or `npm run dev`
 - WA Server will send some data, `Blocklist`,`Stream`,`Props`
 - After it, will got binary (encrypted message)
 - two `preempt` contains contacts and chat lists
+ 
